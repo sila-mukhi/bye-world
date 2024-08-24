@@ -1,0 +1,89 @@
+.header{
+    height:32vw;
+    margin:30px auto;
+    /* background-image:url('/food.jpg'); */
+    background-color:tomato;
+    border-radius: 15px;
+}
+.header{
+    display: grid;
+    /* justify-content:space-between; */
+    grid-template-columns: 50% 50%;
+    animation: fadeIn 3s;    /* aeita app.css re lekha achhi*/
+    justify-content:space-between;
+    align-items: center;
+    
+}
+.header .header-content{
+    margin: 30px;
+    
+    /* justify-content: space-around; */
+    /* background-image: url('food.jpg'); */
+    
+    
+
+}
+.header .header-content-img img{
+    /* padding-top: 25px; */
+    width:300px;
+    height: 300px;
+    margin: 30px;
+    border-radius: 10px;
+    /* border-radius: 50%; */
+    /* background-image: url('food.jpg'); */
+}
+.header-content button{
+    /* text-decoration: ; */
+/* text-align: inherit; */
+margin-top: 30px;
+border: none;
+background-color: bisque;
+border-radius: 50px;
+padding :10px;
+transition: 0.3s;
+
+}
+.header-content button:hover{
+
+    background-color: black;
+    color:white;
+}
+
+@media (max-width:1050px) {
+     /* .header-content{
+        max-width: 45%; 
+    }  */
+    .header-content-img img{
+        width:100px;
+    }
+    
+}
+@media (max-width:900px) {
+    /* .header-content{
+       max-width: 45%; 
+   }  */
+   .header .header-content-img img{
+       width:300px;
+       height:150px;
+   }
+   
+}
+@media (max-width:750px) {
+      /* height:38vw; */
+    
+    .header-content{
+        max-width: 55%;
+    }
+    .header-content p{
+        /* width:250px; */
+        display: none;
+    }
+    .header-content img{
+        width:180px;
+    }
+    .header-content button{
+        padding: 2vw 4vw;
+    }
+    
+}
+@media(max-width:600px){}

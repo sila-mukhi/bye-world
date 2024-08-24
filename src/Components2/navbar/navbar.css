@@ -1,0 +1,19 @@
+.navbar{
+    display: flex;
+    /* justify-content: space-evenly; */
+    gap:10px;
+}
+.navbar-middle{
+    display: flex;
+    justify-content: space-between;
+    gap:30px;
+}
+/* .navbar-left{
+    display: none;
+    transition: 0.2s;
+    padding: 5px 6px 3px 6px;
+    border-radius: 50%;
+    background-color: inherit;
+    border: none;
+    cursor: pointer;
+} */
